@@ -1,0 +1,40 @@
+<html>
+<head><title>Submit</title>
+<style>
+
+</style>
+</head>
+<script>
+function submit(){
+
+
+</script>
+<body style="background-color: #FDCF76;">
+<form method="post" action = "" onsubmit="return submit(this);">
+<h1>Submit a Complaint Online</h1>
+<p><u>Facing issues during lockdown? We got your back!</u></p><br>
+<p><b>Name*</b></p>
+<input type="text" size="100" name="name">
+<p><b>Mobile Number*</b></p>
+<input type="text" size="100" name="mobile">
+<p><b>Location*</b></p>
+<input type="text" size="100" name="location">
+<p><b>Complaint Category*</b></p>
+<select id="category">
+<option>select any one option</option>
+<option value="distance">Not maintaining at least 1m distance</option>
+<option value="gathering">Social gathering taking place</option>
+<option value="mask">Not wearing a mask outside</option>
+<option value="symptoms">Someone in your society has fever, cough and difficulty in breathing</option>
+<option value="medical">Medical emergency</option>
+<option value="financial">Need financial help</option>
+<option value="old">Need help because you are too old and all alone</option>
+<option value="violence">Domestic violence</option>
+<option value="covid19">Want to know more about Covid-19</option>
+</select>
+<p><b>Your Complaint*</b></p>
+<input type="text" size="100" name="description">
+<p><b>Attach an image to your complaint(optional)</b></p>
+<input type="file" id="myFile"><br>
+</body>
+</html>
